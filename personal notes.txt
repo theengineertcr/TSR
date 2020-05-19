@@ -1,0 +1,41 @@
+source code changes
+
+
+SwatGameController.uc
+nullified weapon dropping
+
+
+SwatEnemy.uc
+nullified weapon drop on death
+nullified weapon drop animation sets
+nullified action of dropping weapons
+
+
+SwatAICharacter.uc
+ai must be stunned before they can be arrested
+compliancy is not a factor in determining arrestability 
+
+
+ISwatEnemy.uc
+nullified weapon drop and weapon throw action
+
+
+ComplianceAction.uc
+nullified weapon dropping
+
+
+RestrainedActiuon.uc
+nullified weapon dropping
+
+
+SwatWeaponAction.uc
+nullified action of dropping weapons
+
+
+CommanderAction.uc
+nullifying postcompliancegoal from function goalnetachievedcb 
+has made it so enemies no longer enter a compliant state after 
+a failed or interrupted arrest. however, if there are no players in sight, 
+compliant animations kick in until a player is spotted.
+
+TODO: figure out what's causing this
