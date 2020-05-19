@@ -35,7 +35,7 @@ First stable version of the mod!
 New enemy archetype: EnemySwatOfficer
 Spawns with Light Body Armor
 Spawns with either a flash protective helmet or gas mask
-Spawns with a random primary weapon from multiplayer
+Spawns with a random primary weapon used by players in PvP
 Chance to spawn with low ammunition, swapping to backup after a couple of bursts
 
 
