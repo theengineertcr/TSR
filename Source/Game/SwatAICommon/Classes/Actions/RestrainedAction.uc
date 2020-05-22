@@ -49,11 +49,11 @@ function cleanup()
 		CurrentRotateTowardRotationGoal = None;
 	}
 
-	// only swap in the compliance animations if we're not arrested yet
+	// only swap in the compliance animations if we're not arrested yet // DON'T DO THIS!
 	if (! ISwatAI(m_Pawn).IsArrested())
 	{
-		ISwatAI(m_Pawn).SwapInCompliantAnimSet();
-		ISwatAI(m_Pawn).SetIdleCategory('Compliant');
+		//ISwatAI(m_Pawn).SwapInCompliantAnimSet(); TSR Change:Never should they use a compliant anim set
+		ISwatAI(m_Pawn).SetIdleCategory(''); // Idle category null so it doesn't use compliant anims
 	}
 
 	if ((Cuffs != None) && !Cuffs.IsEquipped())
