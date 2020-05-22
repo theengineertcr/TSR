@@ -956,7 +956,7 @@ function float GetStunnedByC2DetonationMoraleModification()	{ assert(false); ret
 
 function bool ShouldRunWhenFlashBanged()    { return true;  }
 function bool ShouldRunWhenGassed()         { return true;  }
-function bool ShouldRunWhenPepperSprayed()  { return false; }
+function bool ShouldRunWhenPepperSprayed()  { return true; } // TSR Change: AI should be able to move while peppered
 function bool ShouldRunWhenStung()          { return true;  }
 function bool ShouldRunWhenTased()          { return false; }
 function bool ShouldRunWhenStunnedByC2()    { return true;  }
