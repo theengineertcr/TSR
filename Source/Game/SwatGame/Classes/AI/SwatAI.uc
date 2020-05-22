@@ -3065,7 +3065,7 @@ defaultproperties
 
     EyeBoneName                 = eye_R
     // Peripheral vision is 60 degrees on either side (for a total of 120 degrees)
-    PeripheralVision            = 0.5
+    PeripheralVision            = 0.0 // I can feel them - TSR Change
 
     Physics                     = PHYS_Walking
 
